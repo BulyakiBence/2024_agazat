@@ -1,0 +1,4 @@
+Írjon programot negativ.py néven. A programban hozzon létre egy függvényt negativ néven, ami egy egész számot kap paraméterként, és igaz értéket ad vissza, ha a szám 0-nál kisebb, egyébként hamis értékkel térjen vissza. Ezt követően generáljon 100 db -50 és 50 közé eső véletlen számot, és a függvény felhasználásával számolja meg, hogy a generált számok közül hány volt negatív. A választ a mintát látható módon írja ki a képernyőre!
+Minta:
+A generált számok között 47 negatív szerepelt.
+3. feladat: Magyar diafilmek	
