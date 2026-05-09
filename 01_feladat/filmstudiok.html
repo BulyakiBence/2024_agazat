@@ -1,31 +1,32 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="hu">
 <head>
   <title>Filmstúdiók</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap.min.css">  
+  <link rel="stylesheet" href="filmstudiok.css">
   <script src="bootstrap.min.js"></script>  
 </head>
-<body>
-  <div>
+<body >
+  <div class="container-fluid">
     <header class="row bg-dark" id="bevezeto">
-      <p>Filmstúdiók</p>
+      <h1>Filmstúdiók</h1>
     </header>
 
-    <div class="sidebar bg-dark h-100 py-5">
+    <div class="sidebar bg-dark h-100 py-5" >
       <nav>
         <ul class="text-center p-0 nav-ul">
-          
-          <li class="py-4 bg-info w-75 h-50 d-block mx-auto"><a class="nav-item" href="#DC"><img class="d-block mx-auto h-75 w-75" src="images/LOGO/DC-logo.png"></a></li>
-          <li class="py-4 bg-info w-75 h-50 d-block mx-auto"><a class="nav-item" href="#MARVEL"><img class="d-block mx-auto h-75 w-75" src="images/LOGO/MARVEL-logo.png"></a></li>
+          <li class="py-4 bg-info w-75 h-50 d-block mx-auto list-item"><a class="nav-item" href="#bevezeto"><img class="d-block mx-auto h-75 w-75" src="images/LOGO/Filmstudio-logo.png"></a></li>
+          <li class="py-4 bg-info w-75 h-50 d-block mx-auto list-item"><a class="nav-item" href="#DC"><img class="d-block mx-auto h-75 w-75" src="images/LOGO/DC-logo.png"></a></li>
+          <li class="py-4 bg-info w-75 h-50 d-block mx-auto list-item"><a class="nav-item" href="#MARVEL"><img class="d-block mx-auto h-75 w-75" src="images/LOGO/MARVEL-logo.png"></a></li>
         </ul>
       </nav>
     </div>
 
     <div class="row mx-4">
       <div class="col-lg-7 mt-4 text-justify">
-        <p>Napjaink két legnagyobb filmstúdiója a DC és a MARVEL.</p>
+        <p>Napjaink két legnagyobb filmstúdiója a <span style="color: yellow;"> DC</span> és a <span style="color: yellow;">MARVEL</span>.</p>
         <p>A Marvel és a DC mindkettő a szuperhősök világában játszódik, de eltérő megközelítéssel és karakterekkel rendelkeznek.</p>
         <h2>Különbségek</h2>
         
@@ -85,7 +86,10 @@
         </div>
 
         <div class="col-md-3 frame">
-       
+          <div class="card-header text-center">Zöld lámpás</div>
+          <img class="card-img-top w-100 drop-shadow" src="images/DC/Zold_Lampas.png" alt="Zöld lámpás" title="Zöld lámpás">
+          <div class="card-body">Az univerzum végtelen és titokzatos, ám vannak néhányan, akik pontosan tudják, ki jó, ki rossz: ők a Zöld Lámpás Alakulat tagjai, akik a világegyetem nyugalmáért felelnek. Mindegyikük egy olyan gyűrűt hord, ami különleges képességeket biztosít számukra. Amikor új, minden eddiginél hatalmasabb ellenség fenyegeti az univerzum békéjét, kénytelenek egy földi embert is bevenni a csapatba. És attól kezdve a Föld sorsa egy vagány berepülőpilóta kezébe kerül.</div> 
+          <div class="card-footer text-center font-italic"><a href="https://www.themoviedb.org/movie/44912-green-lantern?language=hu-HU" target="_blank">Forrás</a></div>
         </div>
       </div>  
     </section>
@@ -96,7 +100,7 @@
       </div>
 
       <div class="row justify-content-md-center w-100 ml-2">
-        <div class="card frame">
+        <div class="col-md-3 frame">
           <div class="card-header text-center">A Hangya és a Darázs</div>
           <img class="card-img-top w-100 drop-shadow" src="images/MARVEL/Hangya_es_Darazs.png" alt="A Hangya és a Darázs" title="A Hangya és a Darázs">
           <div class="card-body">A Marvel Studios új filmjében az Amerika Kapitány: Polgárháború eseményeit követően
@@ -104,22 +108,25 @@
           <div class="card-footer text-center font-italic"><a href="https://port.hu/adatlap/film/tv/a-hangya-es-a-darazs-ant-man-and-the-wasp/movie-190917" target="_blank">Forrás</a></div>
         </div>
       
-        <div class="card frame">
+        <div class="col-md-3 frame">
           <div class="card-header text-center">Pókember</div>
           <img class="card-img-top w-100 drop-shadow" src="images/MARVEL/Spiderman.png" alt="Pókember" title="Pókember">
           <div class="card-body">Egy pókcsípés nem a világ. Peter Parker (Tobey Maguire), a kétballábas diákújságíró világa mégis fenekestül felfordul, amikor egy laboratóriumi osztálykirándulás során megcsípi egy mutáns pók. Ezt követően a srác egyre furább képességeket tapasztal magán: könnyedén sétál a plafonon, csuklójából ragadós pókszálat lő ki, a veszélyeket pedig jóval bekövetkezésük előtt megérzi. Ami kezdetben játéknak tűnik, hamarosan szörnyű és izgalmas kötelezettséggé válik. Peternek meg kell küzdenie az emberfeletti erővel rendelkező, gonosz Zöld Manóval (Willem Dafoe) és el kell nyernie a gyönyörű Mary Jane (Kirsten Dunst) szerelmét.</div> 
           <div class="card-footer text-center font-italic"><a href="https://port.hu/adatlap/film/tv/pokember-spider-man/movie-46883" target="_blank">Forrás</a></div>
         </div>
 
-        <div class="card frame">
+        <div class="col-md-3">
           <div class="card-header text-center">A Vasember</div>
           <img class="card-img-top w-100 drop-shadow" src="images/MARVEL/Ironman.png" alt="A Vasember" title="A Vasember">
           <div class="card-body">A kis Clark egy egyszerű farmer házaspár, Martha és Jonathan Kent gyermeke. Egy napon ráébred arra, hogy rendkívüli adottságokkal rendelkezik, és olyasmikre képes, amire egyik barátja,   sőt egyetlen földi halandó sem. Ifjúvá serdülve Clark eltökéli, hogy kideríti, honnan származnak a képességei, és mi célból jött a világra, mi a küldetése. Ekkor még nem sejti, hogy múltja a csillagok közé   repíti, és a sorsa az, hogy megmentse a Földet. Acélemberként az emberiség reményének szimbólumává válik.</div> 
           <div class="card-footer text-center font-italic"><a href="https://port.hu/adatlap/film/tv/a-vasember-iron-man/movie-86728" target="_blank">Forrás</a></div>
         </div>
 
-        <div class="card frame">
-        
+        <div class="col-md-3">
+         <div class="card-header text-center">A hihetetlen Hulk</div>
+          <img class="card-img-top w-100 drop-shadow" src="images/MARVEL/A_hihetetlen_Hulk.png" alt="A hihetetlen Hulk" title="A hihetetlen Hulk">
+          <div class="card-body">A kis Clark egy egyszerű farmer házaspár, Martha és Jonathan Kent gyermeke. Egy napon ráébred arra, hogy rendkívüli adottságokkal rendelkezik, és olyasmikre képes, amire egyik barátja,   sőt egyetlen földi halandó sem. Ifjúvá serdülve Clark eltökéli, hogy kideríti, honnan származnak a képességei, és mi célból jött a világra, mi a küldetése. Ekkor még nem sejti, hogy múltja a csillagok közé   repíti, és a sorsa az, hogy megmentse a Földet. Acélemberként az emberiség reményének szimbólumává válik.</div> 
+          <div class="card-footer text-center font-italic"><a href="https://port.hu/adatlap/film/tv/a-hihetetlen-hulk-the-incredible-hulk/movie-92614" target="_blank">Forrás</a></div>
         </div>
       </div>  
     </section>

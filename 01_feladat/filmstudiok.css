@@ -1,19 +1,27 @@
 body {
     margin-left: 200px;
-    color: black; 
+    color: lightyellow; 
     font-family: "Cascadia Mono", Arial, sans-serif;
     max-width: 100%;
     overflow-x: hidden;
+    background-color: black;
 }
 
 h1 {
     width: 100%;
     font-size: 40pt;
     letter-spacing: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    line-height: 150%;
 }
 
 h2 {
     font-size: 16pt;
+    text-transform: uppercase;
 }
 
 h1, h2 {
@@ -103,8 +111,8 @@ header > p {
 }
 
 #plakat {
-    width: 50%;
-    height: 50%;
+    width: 100%;
+    height: 100%;
     border-bottom-left-radius: 50px;
     border-top-right-radius: 50px;
     object-fit: contain;
@@ -129,6 +137,7 @@ header > p {
 
 .card-header {
     border-top-right-radius: 50px !important;
+    font-weight: bold;
 }
 
 .card-footer {
